@@ -1,0 +1,22 @@
+snippet eslrc "Eslintrc configuration JS" b
+/**
+ * TypeScript Eslint Setup
+ * https://typescript-eslint.io/docs/linting/linting
+ *
+ * Install Tools
+ * npm install -g  eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+ * npm install -g prettier eslint-plugin-prettier
+ */ 
+module.exports = {
+    root: true,
+    parser: '@typescript-eslint/parser',
+    plugins: [
+        '@typescript-eslint',
+    ],
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
+    ],
+};
+endsnippet

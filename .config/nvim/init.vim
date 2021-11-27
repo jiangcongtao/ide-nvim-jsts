@@ -1,5 +1,6 @@
 " load configurations to enable different neo vim features
 source ~/.config/nvim/auto-install-plug.vim
+
 source ~/.config/nvim/common.vim
 source ~/.config/nvim/config-airline.vim
 source ~/.config/nvim/config-whichkey.vim
@@ -8,6 +9,7 @@ source ~/.config/nvim/config-floaterm.vim
 source ~/.config/nvim/config-telescope.vim
 source ~/.config/nvim/config-ultisnip.vim
 source ~/.config/nvim/config-nerdtree.vim
+source ~/.config/nvim/config-eslint-ale.vim
 
 " A curated list of plugins to provide the needed functionalities for boost
 " productivity
@@ -43,6 +45,10 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'editorconfig/editorconfig-vim'
+
+" linter
+Plug 'w0rp/ale'
 call plug#end()
 
 source ~/.config/nvim/config-vim-one.vim
+
