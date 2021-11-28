@@ -37,6 +37,8 @@ Plug 'voldikss/vim-floaterm'
 
 " markdown-preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+" Graphviz
+Plug 'liuchengxu/graphviz.vim'
 
 " color schemes
 Plug 'rakr/vim-one'
