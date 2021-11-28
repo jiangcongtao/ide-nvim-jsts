@@ -10,6 +10,7 @@ source ~/.config/nvim/config-telescope.vim
 source ~/.config/nvim/config-ultisnip.vim
 source ~/.config/nvim/config-nerdtree.vim
 source ~/.config/nvim/config-eslint-ale.vim
+source ~/.config/nvim/config-markdown-preview.vim
 
 " A curated list of plugins to provide the needed functionalities for boost
 " productivity
@@ -31,6 +32,9 @@ Plug 'ggandor/lightspeed.nvim'
 
 " floatterm
 Plug 'voldikss/vim-floaterm'
+
+" markdown-preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
 " color schemes
 Plug 'rakr/vim-one'
