@@ -14,9 +14,11 @@ source ~/.config/nvim/config-eslint-ale.vim
 " A curated list of plugins to provide the needed functionalities for boost
 " productivity
 call plug#begin('~/.vim/plugged')
-" ultisnips 
+" ultisnips
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'tpope/vim-surround'
+Plug 'matze/vim-move'
 
 " telescope - brew install fd rg
 Plug 'nvim-lua/plenary.nvim'
@@ -51,4 +53,3 @@ Plug 'w0rp/ale'
 call plug#end()
 
 source ~/.config/nvim/config-vim-one.vim
-
