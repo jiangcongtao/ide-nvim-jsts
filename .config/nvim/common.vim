@@ -10,6 +10,9 @@ let g:maplocalleader = ','
 imap <C-h> <C-\><C-o>h
 imap <C-l> <C-\><C-o>l
 imap jj <Esc>
+" Shortcuts for switching tab pages and splits
+nnoremap <Space>t :tabnext<CR>
+nnoremap <Space>w <C-w>w
 
 " Customize colors for suggestion popmenu, it will be used by plugin like coc.vim
 " friendly dark mode
