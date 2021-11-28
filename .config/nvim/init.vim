@@ -27,6 +27,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'BurntSushi/ripgrep'
 Plug 'sharkdp/fd'
 
+" commentting
+Plug 'tpope/vim-commentary'
 " lightspeed
 Plug 'ggandor/lightspeed.nvim'
 
