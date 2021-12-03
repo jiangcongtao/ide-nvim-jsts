@@ -32,6 +32,11 @@ Plug 'tpope/vim-commentary'
 " lightspeed
 Plug 'ggandor/lightspeed.nvim'
 
+" interact with Tmux
+Plug 'preservim/vimux'
+" move to tmux splits from vim/nvim using C-j(down), C-k(up), C-h(left), C-l (right), C-\(Previous Split)
+Plug 'christoomey/vim-tmux-navigator'
+
 " floatterm
 Plug 'voldikss/vim-floaterm'
 

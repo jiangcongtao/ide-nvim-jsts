@@ -1,5 +1,5 @@
 " Setup common nvim settings
-set nu rnu ts=4 sts=4 sw=4 et ci si
+set nu rnu ts=4 sts=4 sw=4 et ci si encoding=utf-8 nocp
 syntax enable
 filetype plugin indent on
 
