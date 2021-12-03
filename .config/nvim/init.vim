@@ -21,6 +21,12 @@ Plug 'honza/vim-snippets'
 Plug 'tpope/vim-surround'
 Plug 'matze/vim-move'
 
+" More snippets
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"let g:deoplete#enable_at_startup = 1
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+
 " telescope - brew install fd rg
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
