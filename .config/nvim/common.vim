@@ -9,10 +9,24 @@ let g:maplocalleader = ','
 " Mapping for moving cursor in insert mode
 imap <C-h> <C-\><C-o>h
 imap <C-l> <C-\><C-o>l
+imap <C-j> <C-o>j
+imap <C-k> <C-o>k
 imap jj <Esc>
+
 " Shortcuts for switching tab pages and splits
 nnoremap <Space>t :tabnext<CR>
 nnoremap <Space>w <C-w>w
+
+" automatically closing pairs
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+
 
 " Customize colors for suggestion popmenu, it will be used by plugin like coc.vim
 " friendly dark mode
