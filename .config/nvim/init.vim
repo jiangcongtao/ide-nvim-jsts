@@ -69,6 +69,11 @@ Plug 'editorconfig/editorconfig-vim'
 
 " linter
 Plug 'w0rp/ale'
+
+" Javascript and typescript, TODO: configure the following 2 plugins
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+
 call plug#end()
 
 source ~/.config/nvim/config-vim-one.vim
