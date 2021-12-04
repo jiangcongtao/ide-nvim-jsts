@@ -11,6 +11,7 @@ imap <C-h> <C-\><C-o>h
 imap <C-l> <C-\><C-o>l
 imap <C-j> <C-o>j
 imap <C-k> <C-o>k
+imap <C-A> <Esc>$a
 imap jj <Esc>
 
 " Shortcuts for switching tab pages and splits
