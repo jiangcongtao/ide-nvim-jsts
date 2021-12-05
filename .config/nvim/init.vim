@@ -70,6 +70,17 @@ Plug 'editorconfig/editorconfig-vim'
 " linter
 Plug 'w0rp/ale'
 
+" distraction free writing
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+" tabular plugin is used to format tables
+Plug 'godlygeek/tabular'
+" JSON front matter highlight plugin
+Plug 'elzr/vim-json'
+""Plug 'plasticboy/vim-markdown'
+" translator
+Plug 'voldikss/vim-translator'
+
 " Javascript and typescript, TODO: configure the following 2 plugins
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
