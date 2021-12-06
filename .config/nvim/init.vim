@@ -62,6 +62,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'liuchengxu/vim-which-key'
 Plug 'preservim/nerdtree'
 
+"
+Plug 'windwp/nvim-autopairs'
 " Coc to load Ultisnips snippets install coc-snippets extension: CocInstall coc-snippets
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
@@ -88,3 +90,4 @@ Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 source ~/.config/nvim/config-vim-one.vim
+source ~/.config/nvim/config-autopairs.vim

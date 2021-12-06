@@ -17,18 +17,7 @@ imap jj <Esc>
 " Shortcuts for switching tab pages and splits
 nnoremap <Space>t :tabnext<CR>
 nnoremap <Space>w <C-w>w
-
-" automatically closing pairs
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-
-
-
+"
 " Customize colors for suggestion popmenu, it will be used by plugin like coc.vim
 " friendly dark mode
 func! s:my_colors_setup() abort
