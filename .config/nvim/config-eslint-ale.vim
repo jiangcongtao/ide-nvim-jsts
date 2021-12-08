@@ -1,7 +1,6 @@
 let g:ale_disable_lsp = 0
 let g:ale_sign_column_always = 1
 
-
 " Python: pip3 install black flake8 bandit pydocstyle mypy
 let js_fixers = ['prettier', 'eslint']
 let py_fixers = ['black']
