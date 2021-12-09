@@ -71,6 +71,8 @@ Plug 'editorconfig/editorconfig-vim'
 
 " linter
 Plug 'w0rp/ale'
+" Json with comments syntax hightlight .jsonc filetype
+Plug 'neoclide/jsonc.vim'
 
 " distraction free writing
 Plug 'junegunn/goyo.vim'
@@ -91,3 +93,7 @@ call plug#end()
 
 source ~/.config/nvim/config-vim-one.vim
 source ~/.config/nvim/config-autopairs.vim
+
+" Special treatment of tsconfig.json because it is json file with comment,
+" refer to coc-json coc-vim extension
+autocmd BufRead,BufNewFile tsconfig.json set filetype=jsonc
