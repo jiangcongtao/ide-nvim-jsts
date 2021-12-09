@@ -1,13 +1,17 @@
 # Use stow to manage dotfile (.vim, .vimrc etc .files)
 
 ## Example Usage
+Assume the directory `~/setup-vim/ide-nvim-jsts/` has all nvim and `dot-*` file configuration
+
 ```
 cd ~/setup-vim
-stow -S vim-rust
+
+stow -S --dotfiles ide-nvim-jsts
+stow -R --dotfiles ide-nvim-jsts
 
 #or
 
-stow -S -d ~/setup-vim -t ~/ vim-rust
+stow -S -d ~/setup-vim -t ~/ ide-nvim-jsts
 
 ```
 
