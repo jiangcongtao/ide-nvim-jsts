@@ -38,6 +38,8 @@ Plug 'tpope/vim-commentary'
 " lightspeed
 Plug 'ggandor/lightspeed.nvim'
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
 " interact with Tmux
 Plug 'preservim/vimux'
 " move to tmux splits from vim/nvim using C-j(down), C-k(up), C-h(left), C-l (right), C-\(Previous Split)
@@ -91,8 +93,10 @@ Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
+" plugins have to be loaded before doing configurations
 source ~/.config/nvim/config-vim-one.vim
 source ~/.config/nvim/config-autopairs.vim
+source ~/.config/nvim/config-treesitter.vim
 
 " Special treatment of tsconfig.json because it is json file with comment,
 " refer to coc-json coc-vim extension
