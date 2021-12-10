@@ -21,6 +21,9 @@ Plug 'honza/vim-snippets'
 Plug 'tpope/vim-surround'
 Plug 'matze/vim-move'
 
+" editorconfig
+Plug 'editorconfig/editorconfig-vim'
+
 " More snippets
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "let g:deoplete#enable_at_startup = 1
@@ -64,7 +67,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'liuchengxu/vim-which-key'
 Plug 'preservim/nerdtree'
 
-"
+" references
+Plug 'vim-scripts/luarefvim'
+Plug 'vim-scripts/CRefVim'
+
 Plug 'windwp/nvim-autopairs'
 " Coc to load Ultisnips snippets install coc-snippets extension: CocInstall coc-snippets
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
