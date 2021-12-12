@@ -1,7 +1,7 @@
 " Setup common nvim settings
 set nu rnu ts=4 sts=4 sw=4 et ci si encoding=utf-8 nocp
-syntax enable
 filetype plugin indent on
+syntax enable
 
 " Set leader and localleader key mapping
 let g:maplocalleader = ','
