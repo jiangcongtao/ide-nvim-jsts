@@ -60,6 +60,7 @@ Plug 'liuchengxu/graphviz.vim'
 Plug 'rakr/vim-one'
 Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
+Plug 'navarasu/onedark.nvim'
 
 " Need install Nerd Fonts to have a nice looking airline status line
 Plug 'vim-airline/vim-airline'
@@ -100,7 +101,8 @@ Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 " plugins have to be loaded before doing configurations
-source ~/.config/nvim/config-vim-one.vim
+"source ~/.config/nvim/config-vim-one.vim
+source ~/.config/nvim/config-oneark.vim
 source ~/.config/nvim/config-autopairs.vim
 source ~/.config/nvim/config-treesitter.vim
 
