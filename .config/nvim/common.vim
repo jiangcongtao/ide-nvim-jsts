@@ -2,6 +2,8 @@
 set nu rnu ts=4 sts=4 sw=4 et ci si encoding=utf-8 nocp
 filetype plugin indent on
 syntax enable
+" enable neovim true colors
+set termguicolors
 
 " Set leader and localleader key mapping
 let g:maplocalleader = ','
