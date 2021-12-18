@@ -1,6 +1,6 @@
 
 " List all snippets in INSERT mode
-inoremap <F9> <C-R>=UltiSnips#ListSnippets()<CR>
+inoremap <F10> <C-R>=UltiSnips#ListSnippets()<CR>
 inoremap <leader>ls <C-R>=UltiSnips#ListSnippets()<CR>
 
 let g:UltiSnipsExpandTrigger="<nop>"

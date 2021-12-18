@@ -41,7 +41,7 @@ Plug 'tpope/vim-commentary'
 " lightspeed
 Plug 'ggandor/lightspeed.nvim'
 
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
 " interact with Tmux
 Plug 'preservim/vimux'
@@ -94,6 +94,9 @@ Plug 'elzr/vim-json'
 " translator
 Plug 'voldikss/vim-translator'
 
+" vimspector
+Plug 'puremourning/vimspector'
+
 " Javascript and typescript, TODO: configure the following 2 plugins
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
@@ -104,7 +107,8 @@ call plug#end()
 "source ~/.config/nvim/config-vim-one.vim
 source ~/.config/nvim/config-oneark.vim
 source ~/.config/nvim/config-autopairs.vim
-source ~/.config/nvim/config-treesitter.vim
+"source ~/.config/nvim/config-treesitter.vim
+source ~/.config/nvim/config-vimspector.vim
 
 " Special treatment of tsconfig.json because it is json file with comment,
 " refer to coc-json coc-vim extension
